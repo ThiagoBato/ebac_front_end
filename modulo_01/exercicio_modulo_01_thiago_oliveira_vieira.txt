@@ -1,0 +1,4 @@
+HTML, CSS e JS são extremamente importantes para o ecossistema online da internet. Todas as páginas que visualizamos nos navegadores utilizam essas 3 tecnologias.
+HTML é responsável pela estrutura e pelo conteúdo disponibilizado nas páginas web, é através das tags contidas nele que conseguimos fazer a hierarquia do código.
+CSS é responsável pelo estilo das páginas (cores, estilos de fontes, entre outras coisas), pela parte estética e também pela animação através do CSS3.
+Javascript é responsável pela parte dinâmica das páginas, seja através de validações de formulários, mudanças de visualização do conteúdo através da interação do usuário, animações, entre outras funções que incrementam a experiência do usuário.
