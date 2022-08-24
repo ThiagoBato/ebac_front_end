@@ -1,0 +1,139 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+}
+/* Header */
+#header {
+    background-color: #2C3532;
+    color: #fff;
+    padding: 10px;
+}
+#header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#header a {
+    color: #fff;
+    text-decoration: none;
+    transition: .5s ease;
+}
+#header a:hover {
+    color: #0F6466;
+}
+#header h1 {
+    font-size: 1.5rem;
+}
+#header nav ul li {
+    margin: 10px;
+    list-style: none;
+    text-align: center;
+}
+@media screen and (min-width: 480px) {
+    #header nav ul li {
+        display: inline-block;
+        margin: 10px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #header .container {
+        flex-direction: row;
+    }
+}
+/* //Header */
+/* Main */
+#main #sports {
+    background-color: #D8B08C;
+}
+#main #economy {
+    background-color: #D2E8E3;
+}
+#main #entertainment {
+    background-color: #FFCB9A;
+}
+#main #technology {
+    background-color: #0F6466;
+    color: #fff;
+}
+section {
+    padding: 20px;
+}
+#main h2 {
+    text-align: center;
+}
+#main .container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+#main article {
+    max-width: 300px;
+    margin: 20px;
+}
+#main figcaption {
+    font-size: .90rem;
+}
+#main img {
+    max-width: 100%;
+}
+#main p {
+    font-size: .90rem;
+    margin: 10px auto;
+}
+#main .btn {
+    background-color: #FFCB9A;
+    border: none;
+    color: #000;
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    transition: .5s ease;
+}
+#main .btn:hover {
+    background-color: #000;
+    color: #FFCB9A;
+}
+#main #entertainment .btn {
+    background-color: #fff;
+}
+@media screen and (min-width: 480px) {
+    #main article {
+        max-width: 175px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #main .container {
+        justify-content: space-between;
+    }
+    #main article {
+        max-width: 200px;
+    }
+}
+/* //Main */
+
+/* Footer */
+#footer {
+    background-color: #2C3532;
+    color: #fff;
+    font-size: .75rem;
+    padding: 10px;
+    text-align: center;
+}
+#footer a {
+    color: #ffcb9a;
+    text-decoration: none;
+    transition: .5s ease;
+}
+#footer a:hover {
+    color: #D2E8E3;
+}
+/* //Footer */
