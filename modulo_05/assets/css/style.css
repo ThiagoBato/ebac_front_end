@@ -1,0 +1,214 @@
+/* Basic */
+/*  font-family: 'Aref Ruqaa', serif; */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Aboreto', cursive;
+}
+/* //Basic */
+/* Header */
+#header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+#header .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header h1 {
+    font-size: 1rem;
+    margin: 20px auto 0;
+} 
+#header ul {
+    padding: 0;
+}
+#header li {
+    display: inline-block;
+    margin: 0 10px;
+}
+#header a {
+    color: #FBD464;
+    text-decoration: none;
+    transition: .5s ease;
+}
+#header a:hover {
+    color: #fff;
+}
+@media screen and (min-width: 1024px) {
+    #header .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #header h1 {
+        font-size: 2rem;
+        margin: 20px 0;
+    } 
+    #header li {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+}
+/* //Header */
+/* Main */
+#aboutUs {
+    background: rgb(7,30,33);
+    background: linear-gradient(180deg, rgba(7,30,33,1) 0%, rgba(31,81,84,1) 35%, rgba(133,179,179,1) 100%);
+    color: #fff;
+    padding: 100px 20px 20px;
+}
+#aboutUs .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#aboutUs .about-us__img {
+    flex: 1 5 auto;
+}
+#aboutUs img {
+    max-width: 100%;
+}
+#aboutUs .about-us__text {
+    flex: 1 5 auto;
+}
+#aboutUs .about-us__text p {
+    margin: 20px auto 0;
+}
+#aboutUs .about-us__text a {
+    color: #FBD464;
+    text-decoration: none;
+    transition: .5s ease;
+}
+#aboutUs .about-us__text a:hover {
+    color: #071e21;
+}
+#trilogy {
+    background-image: url('../img/bg_01.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+}
+#trilogy .trilogy__mask {
+    background-color: rgba(000, 000, 000, .75);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#trilogy h2 {
+    color: #FBD464;
+    text-align: center;
+}
+#trilogy h3 { 
+    text-align: center;
+}
+#contact {
+    background-color: #1E1E1E;
+    padding: 20px;
+    text-align: center;
+}
+#contact h2 {
+    color: #FBD464;
+}
+#contact p {
+    color: #fff;
+}
+#contact form {
+    max-width: 500px;
+    margin: 50px auto 25px;
+}
+#contact .form__group {
+    margin: 10px auto;
+}
+#contact label {
+    color: #fff;
+    font-size: 0.90rem;
+}
+#contact input,
+#contact textarea {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #FBD464;
+    padding: 10px 0;
+    resize: none;
+    width: 100%;
+} 
+#contact input:focus,
+#contact textarea:focus {
+    outline: none;
+}
+#contact .btn {
+    background-color: #fbd464;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    transition: .5s ease;
+    width: 100px;
+}
+#contact .btn:hover {
+    background-color: #000;
+    color: #fbd464;
+}
+@media screen and (min-width: 640px) {
+    #contact input,
+    #contact textarea {
+        padding: 10px;
+    } 
+}
+@media screen and (min-width: 1024px) {
+    #aboutUs .container {
+        flex-direction: row;
+    }
+    #aboutUs .about-us__text h2 {
+        margin: 0 auto 20px;
+    }
+    #aboutUs .about-us__text {
+        margin-left: 25px;
+    }
+}
+/* //Main */
+/* Footer */
+#footer {
+    background-color: #1A1A1A;
+    text-align: center;
+}
+#footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer p {
+    color: #fff;
+    font-family: 'Aref Ruqaa', serif;
+}
+#footer p a {
+    color: #FBD464;
+    text-decoration: none;
+    transition: .5s ease;
+}
+#footer p a:hover {
+    color: #89B7B7;
+}
+/* //Footer */
