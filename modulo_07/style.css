@@ -1,0 +1,32 @@
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main */
+main {
+    margin: 25px auto;
+    text-align: center;
+}
+.form_group {
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+label {
+    display: block;
+    margin: 0 auto 5px;
+}
+.mensagem_validacao {
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px auto;
+}
+/*
+//Forma de ser feito com o texto da mensagem diretamente no html
+#mensagemPositiva,
+#mensagemNegativa {
+    display: none;
+}
+*/
