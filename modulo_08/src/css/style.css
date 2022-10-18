@@ -1,0 +1,154 @@
+/*-- Basic --*/
+body {
+    background-color: #8075F0;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+/*-- Header --*/
+header {
+    margin: auto auto 0;
+}
+header  h1 {
+    color: #fff;
+    font-size: 25px;
+}
+/*-- Main --*/
+main {
+    background-color: #161D30;
+    border-radius: 10px;
+    padding: 20px 5px;
+}
+main form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 25px;
+}
+main form input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    outline: none;
+    text-align: center;
+}
+::placeholder {
+    color: #655af3
+}
+::-moz-placeholder {
+    color: #655af3
+}
+::-webkit-input-placeholder {
+    color: #655af3
+}
+input:-internal-autofill-selected {
+    background-color: transparent !important;
+}
+main form button {
+    background-color: #655af3;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 10px;
+    transition: 1s;
+}
+main form button:hover {
+    background-color: #fff;
+    color: #655af3
+}
+main table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: 25px auto;
+    text-align: left;
+    width: 100%;
+}
+main table th, main table td {
+    color: #fff;
+}
+main table tbody td {
+    border-bottom: 2px solid #fff;
+    color: #655af3;
+    padding: 5px 0;
+}
+main table thead th:last-of-type,
+main table tbody td:last-of-type,
+main table tfoot td:last-of-type {
+    text-align: center;
+}
+main table tbody span {
+    display: block;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+main table tbody td:last-of-type span {
+    max-width: 120px;
+}
+/*-- Footer --*/
+footer {
+    margin-top: auto;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+}
+footer a:hover {
+    color: #000;
+}
+/*-- Responsive --*/
+@media screen and (min-width: 768px) {
+    header  h1 {
+        font-size: 32px;
+    }
+    main {
+        padding: 50px;
+    }
+    main form {
+        flex-direction: row;
+        margin: 0 auto 50px;
+    }
+    main form input {
+        font-size: 20px;
+        margin-bottom: 0;
+        margin-right: 10px;
+        text-align: left;
+    }
+    main form button {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+    main table {
+        border-spacing: 0;
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+    main table tbody td {
+        padding: 7.5px 7.5px 7.5px 0;
+    }
+    main table tbody td:last-of-type {
+        padding: 7.5px 0 7.5px 7.5px;
+    }
+    main table tbody span {
+        max-width: 300px;
+    }
+    main table tbody td:last-of-type span {
+        max-width: 200px;
+        margin: auto;
+    }
+}
