@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    align-items: center;
+    background: #0d0e0f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 25px;
+}
+h1 {
+    color: #fff;
+    margin: 25px auto;
+    text-align: center;
+}
+form {
+    display: flex;
+    gap: 10px 25px;
+    justify-content: center;
+}
+form input {
+    background-color: transparent;
+   border: 2px solid #551a8b;
+    color: #fff;
+    font-weight: normal;
+    padding: 10px;
+}
+form button {
+    background-color: #551a8b;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: .5s;
+}
+form button:hover {
+    background-color: #fff;
+    color: #000;
+}
+ul {
+    margin: 25px 15px;
+    padding: 0;
+    list-style: none;
+}
+ul li::before {
+    content: "\2022";
+    color: #551a8b;
+    font-weight: bold;
+    left: 0px;
+    position: absolute;
+    width: 1em;
+}
+ul li {
+    color: #fff;
+    cursor: pointer;
+    line-height: 1.5;
+    margin: 10px auto;
+    max-width: 350px;
+    padding: 0 10px;
+    position: relative;
+}
+.task_done {
+    text-decoration: line-through #551a8b;
+    text-decoration-thickness: 3px;
+}
+footer p {
+    color: #fff;
+    font-size: 14px;
+}
+footer p a {
+    color: #551a8b;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: .5s;
+}
+footer p a:hover {
+    color: #fff;
+}
