@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exercício Plugins jQuery</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./src/css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <main>
+                <h1>Formulário de Cadastro</h1>
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Digite o seu nome completo" required />
+                    <input type="email" name="email" id="email" placeholder="Digite o seu e-mail" required />
+                    <input type="number" name="phone" id="phone" placeholder="Digite o seu telefone" required />
+                    <input type="text" class="cpf" name="cpf" id="cpf" placeholder="Digite o seu CPF" required />
+                    <input type="text" name="address" id="address" placeholder="Digite o seu endereço completo" required />
+                    <input type="text" class="cep" name="cep" id="cep" placeholder="Digite o seu CEP" required />
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </main>
+            <footer>
+                <p>Desenvolvido por <a href="https://github.com/ThiagoBato/">Thiago Bato</a></p>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" type="text/javascript"></script>
+        <script src="./dist/jquery-plugin-mask/js/jquery.mask.min.js" type="text/javascript"></script>
+        <script src="./src/js/script.js" type="text/javascript"></script>
+    </body>
+</html>
