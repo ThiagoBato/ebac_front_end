@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    color: #fff;
+}
+body {
+    background-color: #000;
+}
+h1,
+h2 {
+    text-align: center;
+}
+h1 {
+    padding-bottom: 15px;
+    position: relative;
+}
+h2 {
+    margin: 25px auto;
+}
+h1::after {
+    content: "";
+    background-color: #5f6bb2;
+    bottom: 0;
+    height: 5px;
+    left: 50%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+}
+a.btn {
+    background-color: #5f6bb2;
+    border: none;
+}
+footer {
+    text-align: center;
+}
+a {
+    color: #5f6bb2;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+a:hover {
+    color: #fff;
+}
+@media screen and (min-width: 1024px) {
+    h2 {
+        margin: 50px auto 25px;
+    }
+}
