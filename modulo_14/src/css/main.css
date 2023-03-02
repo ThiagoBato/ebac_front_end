@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    background-color: #000;
+}
+h2,
+h3,
+h4,
+h5 {
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    background-color: #000;
+}
+header .navbar-nav {
+    align-items: center;
+}
+header .navbar-brand,
+header .navbar-brand:focus,
+header .nav-link:hover,
+header .nav-link .bi {
+    color: #e50914;
+    transition: 0.5s ease;
+}
+header .navbar-nav .nav-link.active,
+header .navbar-nav .show > .nav-link,
+header .nav-link:focus {
+    color: #e50914;
+}
+header .nav-link,
+header .navbar-brand:hover,
+header .nav-link.btn:hover {
+    color: #fff;
+    transition: 0.5s ease;
+}
+header .navbar-toggler,
+header .nav-link.btn:active,
+header .nav-link.btn:focus {
+    background-color: #e50914;
+}
+header .nav-link.btn {
+    padding: 5px 10px;
+}
+/* //Header */
+
+/* Main */
+main h2 {
+    color: #e50914;
+    text-align: center;
+}
+/* -- Banner --*/
+#banner .carousel-caption h5 {
+    font-size: 3.5rem;
+}
+#banner .carousel-caption p {
+    color: #e50914;
+    font-size: 1.75rem;
+}
+@media screen and (min-width: 768px) {
+    #banner .carousel-caption {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+@media screen and (min-width: 1360px) {
+    #banner .carousel-caption h5 {
+        font-size: 7.5rem;
+    }
+    #banner .carousel-caption p {
+        font-size: 2.5rem;
+    }
+}
+/* -- Banner --*/
+
+/* -- About Us --*/
+#aboutUs .aboutUs__text {
+    align-self: center;
+}
+#aboutUs h3,
+#aboutUs p {
+    color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+    #aboutUs {
+        text-align: right;
+    }
+}
+/* -- //About Us --*/
+/* -- Catalog --*/
+#catalog .nav-link {
+    color: #fff;
+}
+#catalog .nav-link.active {
+    color: #e50914;
+}
+/* -- //Catalog --*/
+/* -- Contact --*/
+#contact {
+    color: #000;
+    background-color: #fff;
+}
+#contact .bi {
+    font-size: 1.5rem;
+}
+#contact a {
+    color: #e50914;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+#contact a:hover {
+    color: #000;
+}
+/* -- //Contact --*/
+/* //Main */
+
+/* Footer */
+footer {
+    text-align: center;
+}
+footer p {
+    color: #fff;
+    font-size: 0.75rem;
+    margin: 0 auto;
+}
+footer p a {
+    color: #e50914;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+footer p a:hover {
+    color: #fff;
+}
+/* //Footer */
