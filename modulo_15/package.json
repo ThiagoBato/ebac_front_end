@@ -1,0 +1,15 @@
+{
+  "name": "modulo_15",
+  "version": "1.0.0",
+  "description": "-   AAAA",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/sass/main.scss:build/css/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}
