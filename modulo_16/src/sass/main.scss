@@ -1,0 +1,14 @@
+@use './config/reset';
+@use './config/variables';
+
+body {
+    color: variables.$secondaryColor;
+    background-color: variables.$primaryColor;
+    font-family: variables.$fontFamily;
+}
+h1 {
+    color: #000;
+    font-weight: variables.$fontWeight;
+    text-align: center;
+    margin: 50px auto;
+}
