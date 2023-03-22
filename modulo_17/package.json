@@ -1,0 +1,16 @@
+{
+  "name": "modulo_17",
+  "version": "1.0.0",
+  "description": "-   AAAAAA",
+  "main": "index.js",
+  "scripts": {
+    "less": "less-watch-compiler ./src/styles ./build/css main.less",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago Bato",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.1.3",
+    "less-watch-compiler": "^1.16.3"
+  }
+}
