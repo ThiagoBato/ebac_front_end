@@ -1,0 +1,55 @@
+@use 'variables';
+
+.footer {
+    padding: 20px 0 50px;
+
+    &__container {
+        align-items: end;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 60px;
+
+        @media (max-width: 768px) {
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+        }
+    }
+
+    &__social {
+        display: flex;
+        gap: 20px;
+
+        &__links {
+
+            i {
+                transition: ease .5s;
+            }
+
+            &:hover i {
+                color: variables.$secundaryTextColor;
+            }
+        }
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+    nav {
+        display: flex;
+        gap: 20px;
+        justify-content: flex-end;
+
+        @media (max-width: 768px) {
+            justify-content: center;
+        }
+
+        a {
+
+            &:hover {
+                color: variables.$secundaryTextColor;
+            }
+        }
+    }
+}

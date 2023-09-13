@@ -1,0 +1,38 @@
+@use 'variables';
+
+.description {
+    &__container {
+        display: flex;
+        padding: 20px 60px;
+        position: relative;
+
+        @media (max-width:1024px) {
+            flex-direction: column;
+        }
+
+        @media (max-width: 768px) {
+            padding: 20px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        margin-bottom: 30px;
+    
+        &__column {
+            width: 20vw;
+
+            @media (max-width: 1024px) {
+                width: calc(50vw - 60px);
+            }
+        }
+
+        &__item {
+            img {
+                height: 16px;
+            }
+        }
+    }
+
+    
+}
