@@ -1,0 +1,51 @@
+@use 'variables';
+
+.similar {
+
+    &__container {
+        padding: 20px 60px;
+
+        @media (max-width: 768px) {
+            padding: 20px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 25px auto;
+
+        @media (max-width: 1280px) {
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+        }
+
+        &__item {
+            border: 2px solid transparent;
+            border-radius: 5px;
+            cursor: pointer;
+            max-width: 205px;
+            padding: 2px;
+            transition: ease .5s;
+
+            @media (max-width: 1280px) {
+                max-width: none;
+            }
+
+            &:hover {
+                border-color:  rgba(117, 62, 239, 100);
+            
+            }
+
+            img {
+                max-width: 100%;
+
+                @media (max-width: 1280px) {
+                    max-width: none;
+                }
+            }
+            
+        }
+    }
+}
