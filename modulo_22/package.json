@@ -1,0 +1,19 @@
+{
+  "name": "modulo_22",
+  "version": "1.0.0",
+  "description": "-   Crie uma nova landing page no formato de evento, utilize como tema seu aniversário; -   Publique o projeto na Vercel e nos envie o link através da plataforma.",
+ 
+  "scripts": {
+    "dev": "parcel src/index.html src/css/main.scss src/js/main.js",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3",
+    "sharp": "^0.31.3"
+  }
+}

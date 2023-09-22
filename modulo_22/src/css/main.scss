@@ -1,0 +1,58 @@
+@use "variables";
+@use "hero";
+@use "description";
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    align-items: center;
+    background-color: variables.$bgPrimaryColor;
+    display: flex;
+    font-family: variables.$textSecondaryFont;
+    min-height: 100vh;
+}
+
+main {
+    margin: 50px auto;
+
+    @media (max-width: 1024px) {
+        margin: 0 auto;
+    }
+}
+
+.container {
+    box-shadow: variables.$bgSecondaryColor 0 0 200px 0;
+    max-width: 960px;
+    margin: 0 auto;
+    transition: ease-in-out .5s;
+    width: 100%;
+
+    &:hover {
+        box-shadow: none;
+    }
+
+    @media (max-width: 1024px) {
+        padding: 20px;
+    }
+}
+
+.btn {
+    background-color: variables.$btnPrimaryColor;
+    color: variables.$textPrimaryColor;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 5px 10px;
+    transition: ease-in-out .5s;
+
+    &:hover {
+        background-color: variables.$btnPrimaryHoverColor;
+    }
+}

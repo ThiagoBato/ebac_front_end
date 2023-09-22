@@ -1,0 +1,31 @@
+@use "variables";
+
+.description {
+    align-items: center;
+    background-color: variables.$bgSecondaryColor;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px;
+
+    @media (max-width: 1024px) {
+        gap: 20px;
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &__img {
+        border-radius: 100%;
+        max-width: 100%;
+        width: 250px;
+    }
+
+    &__list {
+        
+        &__item {
+            color: variables.$textPrimaryColor;
+        }
+    }
+}
