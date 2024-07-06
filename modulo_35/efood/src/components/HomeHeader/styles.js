@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Header = styled.header`
-  background-image: url('../../../public/images/bg-top.svg');
+  background-image: url('../../../images/bg-top.svg');
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
