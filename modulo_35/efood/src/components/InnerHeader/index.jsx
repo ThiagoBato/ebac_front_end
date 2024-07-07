@@ -7,7 +7,7 @@ export const InnerHeader = () => {
     <Styled.Header>
       <Styled.Container>
         <Styled.HeaderInfo>
-          <span>Restaurantes</span>
+          <Styled.NavLink to="/">Restaurantes</Styled.NavLink>
           <img src={logo} alt="Logo efood" />
           <span>0 produto(s) no carrinho</span>
         </Styled.HeaderInfo>
