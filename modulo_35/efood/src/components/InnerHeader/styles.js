@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const Header = styled.header`
   background-image: url('../../../images/bg-top.svg');
@@ -35,6 +36,19 @@ export const HeaderInfo = styled.div`
     @media screen and (max-width: 1024px) {
       min-width: 0;
     }
+  }
+`;
+
+export const NavLink = styled(Link)`
+  color: #e66767;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 20px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: #000;
   }
 `;
 
