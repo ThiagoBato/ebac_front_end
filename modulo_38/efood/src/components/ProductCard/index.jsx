@@ -20,7 +20,7 @@ export const ProductCard = ({ productId, productImg, productTitle, productDescri
   };
 
   useEffect(() => {
-    if (modal) {
+    if (modal && window.innerWidth < 768) {
       window.scrollTo({
         top: 0,
         behavior: 'smooth',
